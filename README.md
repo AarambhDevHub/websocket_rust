@@ -27,7 +27,7 @@ First, clone the repository and navigate to the project directory:
     ```bash
     git clone https://github.com/SuryodayDevHub/websocket_rust.git
     cd websocket_rust
-    ```
+    
 
 ## Install Dependencies
 
@@ -39,7 +39,7 @@ Make sure you have the following dependencies in your `Cargo.toml`:
     tungstenite = "0.15"
     futures = "0.3"
     futures-util = "0.3"
-    ```
+    
 
 ## Running the Server
 
