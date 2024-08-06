@@ -24,14 +24,16 @@ This project provides a WebSocket server and client implementation in Rust. The 
 ### Clone the Repository
 
 First, clone the repository and navigate to the project directory:
+
     ```bash
     git clone https://github.com/SuryodayDevHub/websocket_rust.git
     cd websocket_rust
-    
+    ```
 
 ## Install Dependencies
 
 Make sure you have the following dependencies in your `Cargo.toml`:
+
     ```bash
     [dependencies]
     tokio = { version = "1", features = ["full"] }
@@ -39,11 +41,12 @@ Make sure you have the following dependencies in your `Cargo.toml`:
     tungstenite = "0.15"
     futures = "0.3"
     futures-util = "0.3"
-    
+    ```
 
 ## Running the Server
 
 To start the WebSocket server, use the following command:
+
     ```bash
     cargo run -- server
     ```
@@ -53,6 +56,7 @@ The server will listen for connections on ws://127.0.0.1:8080.
 ## Running the Client
 
 To start the WebSocket client, use the following command:
+
     ```bash
     cargo run -- client
     ```
@@ -63,6 +67,7 @@ The client will connect to the WebSocket server at ws://127.0.0.1:8080.
 ## Running Both Server and Client
 
 To run both the server and the client simultaneously, use the following command:
+
     ```bash
     cargo run -- both
     ```
