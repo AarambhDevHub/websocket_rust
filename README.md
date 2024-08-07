@@ -112,6 +112,13 @@ Once the client is running, you can interact with it using the following command
 
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
+## Donations
+
+If you find this project useful and would like to support its continued development, you can make a donation via [Buy Me a Coffee](https://buymeacoffee.com/aarambhdevhub
+).
+
+Thank you for your support!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
